@@ -10,6 +10,7 @@ import {
   TouchableOpacity,
   Linking,
 } from 'react-native';
+import { UiHeading } from '@instagram-clone/instagram-ui';
 
 import Checkmark from './icons/checkmark.svg';
 import Book from './icons/book.svg';
@@ -39,6 +40,7 @@ export const App = () => {
           contentInsetAdjustmentBehavior="automatic"
           style={styles.scrollView}
         >
+          <UiHeading text="Shared component used by mobile" />
           <View style={styles.section}>
             <Text style={styles.textLg}>Hello there,</Text>
             <Text style={[styles.textXL, styles.appTitleText]} testID="heading">

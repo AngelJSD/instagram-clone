@@ -1,6 +1,7 @@
 {
   "version": 2,
   "projects": {
+    "instagram-ui": "libs/instagram-ui",
     "mobile": "apps/mobile",
     "mobile-e2e": "apps/mobile-e2e",
     "website": "apps/website",
